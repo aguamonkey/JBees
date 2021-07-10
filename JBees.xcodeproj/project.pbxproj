@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1665F9250FD92100FB5DA9 /* Youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1665F8250FD92100FB5DA9 /* Youtube.png */; };
+		BA2C3F242518F11C00928006 /* ActivityViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C3F232518F11C00928006 /* ActivityViewClass.swift */; };
+		BA2C3F402518FB9100928006 /* J & The Bees - Cover Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA2C3F3F2518FB9000928006 /* J & The Bees - Cover Girl.mp3 */; };
+		BA2C3F442518FBC100928006 /* J & The Bees - Isolation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA2C3F432518FBC100928006 /* J & The Bees - Isolation.mp3 */; };
+		BA2C3F472519048400928006 /* J & The Bees Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2C3F462519048400928006 /* J & The Bees Logo.png */; };
+		BA8F9BA82507E79800404958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BA72507E79800404958 /* AppDelegate.swift */; };
+		BA8F9BAA2507E79800404958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BA92507E79800404958 /* SceneDelegate.swift */; };
+		BA8F9BAC2507E79800404958 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BAB2507E79800404958 /* ContentView.swift */; };
+		BA8F9BAE2507E79E00404958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F9BAD2507E79E00404958 /* Assets.xcassets */; };
+		BA8F9BB12507E79E00404958 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F9BB02507E79E00404958 /* Preview Assets.xcassets */; };
+		BA8F9BB42507E79E00404958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8F9BB22507E79E00404958 /* LaunchScreen.storyboard */; };
+		BA8F9BBC2508B6CC00404958 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BBB2508B6CC00404958 /* CardModel.swift */; };
+		BA8F9BBE2508B6D900404958 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BBD2508B6D900404958 /* CardData.swift */; };
+		BA8F9BC02509355C00404958 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BBF2509355C00404958 /* CardView.swift */; };
+		BA8F9BC2250A740000404958 /* Rehat.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA8F9BC1250A740000404958 /* Rehat.otf */; };
+		BA8F9BC4250B6A9C00404958 /* FrenchDancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BC3250B6A9C00404958 /* FrenchDancer.swift */; };
+		BA8F9BC7250BB3D900404958 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BC6250BB3D900404958 /* PlaySound.swift */; };
+		BA8F9BC9250BB3E600404958 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BC8250BB3E600404958 /* Utility.swift */; };
+		BA8F9BCB250BB42200404958 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BCA250BB42200404958 /* ViewModifier.swift */; };
+		BA8F9BD1250BC77300404958 /* J & The Bees - All Roads Lead To Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8F9BCD250BC77300404958 /* J & The Bees - All Roads Lead To Now.mp3 */; };
+		BA8F9BD6250BCC5400404958 /* CoverGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BD5250BCC5400404958 /* CoverGirl.swift */; };
+		BA8F9BD8250BCC5D00404958 /* AllRoads.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BD7250BCC5D00404958 /* AllRoads.swift */; };
+		BA8F9BDA250BCC6B00404958 /* Isolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BD9250BCC6B00404958 /* Isolation.swift */; };
+		BA8F9BDC250BCC8B00404958 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F9BDB250BCC8B00404958 /* About.swift */; };
+		BAD8F3002519329D00FEF9A4 /* J & The Bees - French Dancers Smile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAD8F2FF2519329D00FEF9A4 /* J & The Bees - French Dancers Smile.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA1665F8250FD92100FB5DA9 /* Youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Youtube.png; path = "App Images/Buttons/Youtube.png"; sourceTree = SOURCE_ROOT; };
+		BA2C3F232518F11C00928006 /* ActivityViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewClass.swift; sourceTree = "<group>"; };
+		BA2C3F3F2518FB9000928006 /* J & The Bees - Cover Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "J & The Bees - Cover Girl.mp3"; sourceTree = "<group>"; };
+		BA2C3F432518FBC100928006 /* J & The Bees - Isolation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "J & The Bees - Isolation.mp3"; sourceTree = "<group>"; };
+		BA2C3F462519048400928006 /* J & The Bees Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J & The Bees Logo.png"; sourceTree = "<group>"; };
+		BA8F9BA42507E79800404958 /* JBees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBees.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8F9BA72507E79800404958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA8F9BA92507E79800404958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA8F9BAB2507E79800404958 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA8F9BAD2507E79E00404958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8F9BB02507E79E00404958 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA8F9BB32507E79E00404958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8F9BB52507E79E00404958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8F9BBB2508B6CC00404958 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		BA8F9BBD2508B6D900404958 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		BA8F9BBF2509355C00404958 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BA8F9BC1250A740000404958 /* Rehat.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rehat.otf; sourceTree = "<group>"; };
+		BA8F9BC3250B6A9C00404958 /* FrenchDancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchDancer.swift; sourceTree = "<group>"; };
+		BA8F9BC6250BB3D900404958 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		BA8F9BC8250BB3E600404958 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BA8F9BCA250BB42200404958 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		BA8F9BCD250BC77300404958 /* J & The Bees - All Roads Lead To Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "J & The Bees - All Roads Lead To Now.mp3"; path = "App Audio/J & The Bees - All Roads Lead To Now.mp3"; sourceTree = SOURCE_ROOT; };
+		BA8F9BD5250BCC5400404958 /* CoverGirl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverGirl.swift; sourceTree = "<group>"; };
+		BA8F9BD7250BCC5D00404958 /* AllRoads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRoads.swift; sourceTree = "<group>"; };
+		BA8F9BD9250BCC6B00404958 /* Isolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Isolation.swift; sourceTree = "<group>"; };
+		BA8F9BDB250BCC8B00404958 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		BAD8F2FF2519329D00FEF9A4 /* J & The Bees - French Dancers Smile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "J & The Bees - French Dancers Smile.mp3"; path = "../../../../../Desktop/J Bees Desktop/J & The Bees - French Dancers Smile.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8F9BA12507E79800404958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8F9B9B2507E79800404958 = {
+			isa = PBXGroup;
+			children = (
+				BA8F9BA62507E79800404958 /* JBees */,
+				BA8F9BA52507E79800404958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8F9BA52507E79800404958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F9BA42507E79800404958 /* JBees.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8F9BA62507E79800404958 /* JBees */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F9BA72507E79800404958 /* AppDelegate.swift */,
+				BA8F9BA92507E79800404958 /* SceneDelegate.swift */,
+				BA8F9BAB2507E79800404958 /* ContentView.swift */,
+				BA8F9BBB2508B6CC00404958 /* CardModel.swift */,
+				BA8F9BBD2508B6D900404958 /* CardData.swift */,
+				BA8F9BBF2509355C00404958 /* CardView.swift */,
+				BA8F9BC3250B6A9C00404958 /* FrenchDancer.swift */,
+				BA8F9BD5250BCC5400404958 /* CoverGirl.swift */,
+				BA8F9BD7250BCC5D00404958 /* AllRoads.swift */,
+				BA8F9BD9250BCC6B00404958 /* Isolation.swift */,
+				BA8F9BDB250BCC8B00404958 /* About.swift */,
+				BA8F9BCA250BB42200404958 /* ViewModifier.swift */,
+				BA8F9BC5250BB3C700404958 /* Models */,
+				BA8F9BAD2507E79E00404958 /* Assets.xcassets */,
+				BA1665F8250FD92100FB5DA9 /* Youtube.png */,
+				BA8F9BCC250BC75900404958 /* Music */,
+				BA8F9BC1250A740000404958 /* Rehat.otf */,
+				BA8F9BB22507E79E00404958 /* LaunchScreen.storyboard */,
+				BA8F9BB52507E79E00404958 /* Info.plist */,
+				BA8F9BAF2507E79E00404958 /* Preview Content */,
+			);
+			path = JBees;
+			sourceTree = "<group>";
+		};
+		BA8F9BAF2507E79E00404958 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F9BB02507E79E00404958 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA8F9BC5250BB3C700404958 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F9BC6250BB3D900404958 /* PlaySound.swift */,
+				BA8F9BC8250BB3E600404958 /* Utility.swift */,
+				BA2C3F232518F11C00928006 /* ActivityViewClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA8F9BCC250BC75900404958 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				BA2C3F3F2518FB9000928006 /* J & The Bees - Cover Girl.mp3 */,
+				BA2C3F432518FBC100928006 /* J & The Bees - Isolation.mp3 */,
+				BA8F9BCD250BC77300404958 /* J & The Bees - All Roads Lead To Now.mp3 */,
+				BAD8F2FF2519329D00FEF9A4 /* J & The Bees - French Dancers Smile.mp3 */,
+				BA2C3F462519048400928006 /* J & The Bees Logo.png */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8F9BA32507E79800404958 /* JBees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8F9BB82507E79E00404958 /* Build configuration list for PBXNativeTarget "JBees" */;
+			buildPhases = (
+				BA8F9BA02507E79800404958 /* Sources */,
+				BA8F9BA12507E79800404958 /* Frameworks */,
+				BA8F9BA22507E79800404958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBees;
+			productName = JBees;
+			productReference = BA8F9BA42507E79800404958 /* JBees.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8F9B9C2507E79800404958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Gobias LTD";
+				TargetAttributes = {
+					BA8F9BA32507E79800404958 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BA8F9B9F2507E79800404958 /* Build configuration list for PBXProject "JBees" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8F9B9B2507E79800404958;
+			productRefGroup = BA8F9BA52507E79800404958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8F9BA32507E79800404958 /* JBees */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8F9BA22507E79800404958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1665F9250FD92100FB5DA9 /* Youtube.png in Resources */,
+				BA8F9BC2250A740000404958 /* Rehat.otf in Resources */,
+				BA2C3F442518FBC100928006 /* J & The Bees - Isolation.mp3 in Resources */,
+				BA8F9BB42507E79E00404958 /* LaunchScreen.storyboard in Resources */,
+				BA2C3F402518FB9100928006 /* J & The Bees - Cover Girl.mp3 in Resources */,
+				BAD8F3002519329D00FEF9A4 /* J & The Bees - French Dancers Smile.mp3 in Resources */,
+				BA8F9BD1250BC77300404958 /* J & The Bees - All Roads Lead To Now.mp3 in Resources */,
+				BA8F9BB12507E79E00404958 /* Preview Assets.xcassets in Resources */,
+				BA8F9BAE2507E79E00404958 /* Assets.xcassets in Resources */,
+				BA2C3F472519048400928006 /* J & The Bees Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8F9BA02507E79800404958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8F9BBE2508B6D900404958 /* CardData.swift in Sources */,
+				BA8F9BC7250BB3D900404958 /* PlaySound.swift in Sources */,
+				BA8F9BC9250BB3E600404958 /* Utility.swift in Sources */,
+				BA8F9BD6250BCC5400404958 /* CoverGirl.swift in Sources */,
+				BA8F9BCB250BB42200404958 /* ViewModifier.swift in Sources */,
+				BA8F9BA82507E79800404958 /* AppDelegate.swift in Sources */,
+				BA8F9BBC2508B6CC00404958 /* CardModel.swift in Sources */,
+				BA8F9BD8250BCC5D00404958 /* AllRoads.swift in Sources */,
+				BA8F9BAA2507E79800404958 /* SceneDelegate.swift in Sources */,
+				BA8F9BDC250BCC8B00404958 /* About.swift in Sources */,
+				BA8F9BC02509355C00404958 /* CardView.swift in Sources */,
+				BA2C3F242518F11C00928006 /* ActivityViewClass.swift in Sources */,
+				BA8F9BAC2507E79800404958 /* ContentView.swift in Sources */,
+				BA8F9BC4250B6A9C00404958 /* FrenchDancer.swift in Sources */,
+				BA8F9BDA250BCC6B00404958 /* Isolation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA8F9BB22507E79E00404958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8F9BB32507E79E00404958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8F9BB62507E79E00404958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8F9BB72507E79E00404958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8F9BB92507E79E00404958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"JBees/Preview Content\"";
+				DEVELOPMENT_TEAM = J2452P8KTA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JBees/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GobiasLTD.Leo-Steel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8F9BBA2507E79E00404958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"JBees/Preview Content\"";
+				DEVELOPMENT_TEAM = J2452P8KTA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JBees/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GobiasLTD.Leo-Steel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8F9B9F2507E79800404958 /* Build configuration list for PBXProject "JBees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8F9BB62507E79E00404958 /* Debug */,
+				BA8F9BB72507E79E00404958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8F9BB82507E79E00404958 /* Build configuration list for PBXNativeTarget "JBees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8F9BB92507E79E00404958 /* Debug */,
+				BA8F9BBA2507E79E00404958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8F9B9C2507E79800404958 /* Project object */;
+}
